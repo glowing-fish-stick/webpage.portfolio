@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My School Projects Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #f5f2eb;
+      color: #4b3f2f;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #e6ddce;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+      background-color: #d8cbbb;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: #4b3f2f;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 1.5rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .project-card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .project-info {
+      padding: 1rem;
+    }
+
+    .project-info h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      background-color: #e6ddce;
+      margin-top: 2rem;
+    }
+
+    form {
+      margin-top: 2rem;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    form h2 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    label, input, textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 1rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    input, textarea {
+      padding: 0.7rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      background-color: #bca27e;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    button:hover {
+      background-color: #a78b65;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>Welcome to Jennica's Webpage Portfolio!</h2>
+    <span>Explore my academic creations throughout the year</span>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="https://example.com">External Link</a>
+  </nav>
+
+  <section class="intro">
+    <p>Hello there! I am Jennica Riego, a Grade 9 student here in GLC and This portfolio of mine features a collection of my school projects throughout the year, highlighting the skills, creativity, and effort I put into each one. Enjoy scrolling! 
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="project-card">
+      <img src="/20250414_184507.jpg" alt="Project 1">
+      <div class="project-info">
+        <h3>ENGLISH - Journal Notebook</h3>
+        <span>We are required to read a novel that Teacher Rocky gave us and make a summary,reflection,vocabulary words, and answer a questions about the story. </span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="/portrait-happy-senior-man-thumb-up-16276754.jpg" alt="Project 2">
+      <div class="project-info">
+        <h3>VALUES - Journal Notebook</h3>
+        <span>We will write everyday on our Journal on what we are grateful for.</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="/20250414_211450.jpg" alt="Project 3">
+      <div class="project-info">
+        <h3>SOCIAL STUDIES - Journal Notebook</h3>
+        <span>We are required to watch a news everyday that is about economy or can affect our economy and share it infront of the class.</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="/received_1013931890107593.jpeg" alt="Project 4">
+      <div class="project-info">
+        <h3>MATH - Worksheets</h3>
+        <span>We will be answering a worksheet about all of our lesson.</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="/maxresdefault.jpg" alt="Project 5">
+      <div class="project-info">
+        <h3>SCIENCE - Making our own catapult </h3>
+        <span>We will make a visual representation of a catapult.</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="/Untitled23 (1).jpg" alt="Project 6">
+      <div class="project-info">
+        <h3> T.L.E - Cleaning our whole classroom </h3>
+        <span>We are required to clean our whole classroom and make it clean as possible.</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="/91vvYkE.jpg" alt="Project 7">
+      <div class="project-info">
+        <h3>COMPUTER - Webpage Portfolio</h3>
+        <span>We will showcase our projects by coding a website..</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="/FB_IMG_1744634829381.jpg" alt="Project 8">
+      <div class="project-info">
+        <h3>ENGLISH - Declamation Speech</h3>
+        <span>Our performance on our Declaration speech will serve as our project on English. It will be graded base on how we will deliver it correctly.</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="/received_10014365551953812.jpeg" alt="Project 9">
+      <div class="project-info">
+        <h3>SOCIAL STUDIES - Diorama</h3>
+        <span> We will make a diorama of The Circular flow of Income, Goods, & Services using eco-friendly materials.  </span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="/Untitled22.jpg" alt="Project 10">
+      <div class="project-info">
+        <h3>Values - "I LOVE YOU" challenge</h3>
+        <span>We will take an unscripted video of ourselves saying "I love you" to our parents/guardians and record their real reactions. Whether they got mad or what.</span>
+      </div>
+    </div>
+  </section>
+
+  <form id="contact">
+    <h2>Comments:</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+
+  <footer>
+    &copy; Riego's Webpage Portfolio.
+  </footer>
+</body>
+
+</html>
+
